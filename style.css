@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
 }
-a{
-    text-decoration: none;
-    color: #2f175c;
-}
+
 html, body{
     font-family: brandon-grotesque, sans-serif;
     color: #2f175c;
+}
+a{
+    text-decoration: none;
+    color: #000000;
 }
 
 #player-container #play-pause {
