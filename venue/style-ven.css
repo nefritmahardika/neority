@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: brandon-grotesque, sans-serif;
+    color: #fff;
+}
+#bg {
+    object-fit:cover; 
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+h1{
+    opacity: 0.6;
+    font-size: 180px;
+    text-align: center;
+
+}
+@media screen and (max-width : 1024px){
+ h1{
+     font-size: 100px;
+ }
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: brandon-grotesque, sans-serif;
+    color: #2f175c;
+}
+
+#player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height:40px;
+    width: 40px;
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
+    padding: 30px 30px;
+    border-radius: 50%;
+    z-index: 2;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+    background-repeat: no-repeat!important;
+    background-position: center;
+    background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+    background: rgb(254,201,120);
+    background: linear-gradient(215deg, rgba(254,201,120,1) 0%, rgba(240,56,153,1) 100%);
+    
+  }
+  .play {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  
+}
+#player-container i{
+ bottom: 50px;
+ left: 50px;
+margin: 35px;
+ position: absolute;
+ z-index: 9999;
+}
+  .pause {
+     background: rgb(254,201,120);
+     background: linear-gradient(215deg, rgba(254,201,120,1) 0%, rgba(240,56,153,1) 100%);
+    }
+.full {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 50px;
+    cursor: pointer;
+    right: 50px;
+    color: #432086;
+    background: rgb(254,201,120);
+background: linear-gradient(215deg, rgba(254,201,120,1) 0%, rgba(240,56,153,1) 100%);
+}
+.full button{
+    padding: 30px;
+    opacity: 0;
+    cursor: pointer;
+}
+.ri-fullscreen-line{
+    bottom: 50px;
+    cursor: pointer;
+    right: 50px;
+    position: absolute;
+    margin: 35px;
+    z-index: 99;
+}
+#bg {
+    object-fit:cover; 
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+
+.rotate {
+    display: none;
+}
+.menu{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu-bot{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu a{
+    padding: 10px;
+    font-weight: 700;
+    top: 35vh;
+    border-radius: 30px;
+    position: relative;
+    background-color: #fff;
+}
+.menu-bot a{
+    padding: 10px;
+    font-weight: 700;
+    top: 65vh;
+    border-radius: 30px;
+    position: relative;
+    background-color: #fff;
+}
