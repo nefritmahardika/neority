@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
-html, body{
-    font-family: brandon-grotesque, sans-serif;
-    color: #2f175c;
-}
 a{
     text-decoration: none;
-    color: #000000;
+}
+body{
+    font-family: brandon-grotesque, sans-serif;
+    color: #2f175c;
 }
 
 #player-container #play-pause {
@@ -19,7 +17,7 @@ a{
     width: 40px;
     bottom: 50px;
     left: 50px;
-    position: absolute;
+    position: fixed;
     padding: 30px 30px;
     border-radius: 50%;
     z-index: 2;
@@ -36,13 +34,13 @@ a{
   }
   .play {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
-  
+    position: fixed;
 }
 #player-container i{
  bottom: 50px;
  left: 50px;
 margin: 35px;
- position: absolute;
+position: fixed;
  z-index: 9999;
 }
   .pause {
@@ -65,12 +63,13 @@ background: linear-gradient(215deg, rgba(254,201,120,1) 0%, rgba(240,56,153,1) 1
     padding: 30px;
     opacity: 0;
     cursor: pointer;
+    
 }
 .ri-fullscreen-line{
     bottom: 50px;
     cursor: pointer;
     right: 50px;
-    position: absolute;
+    position: fixed;
     margin: 35px;
     z-index: 99;
 }
