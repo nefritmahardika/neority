@@ -17,17 +17,21 @@ body{
     left: 0;
     z-index: -1000;
 }
+.boards{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
 .board{
     background-color: white;
-    width: 70%;
-    margin: auto;
+    width: 30%;
     height: 87vh;
-    border-radius: 20px;
     margin-top: 50px;
+    border-radius: 20px;
 }
 .board h1{
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .list{
@@ -47,4 +51,14 @@ body{
  h1{
      font-size: 20px;
  }
+.list p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.board{
+    width: 45%;
+}
+p{
+    font-size: 12px;
+}
 }
