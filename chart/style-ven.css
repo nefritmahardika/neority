@@ -12,7 +12,7 @@ body{
     object-fit:cover; 
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1000;
@@ -25,7 +25,7 @@ body{
 .board{
     background-color: white;
     width: 30%;
-    height: 87vh;
+    height: 700px;
     margin-top: 50px;
     border-radius: 20px;
 }
