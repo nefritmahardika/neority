@@ -13,7 +13,7 @@ body{
     object-fit:cover; 
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1000;
@@ -24,8 +24,19 @@ h1{
     text-align: center;
 
 }
+iframe{
+ display: block;
+ margin: 0 auto;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
 @media screen and (max-width : 1024px){
  h1{
      font-size: 100px;
+ }
+ iframe{
+     width: 80%;
  }
 }
